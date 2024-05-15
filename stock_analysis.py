@@ -24,7 +24,7 @@ def create_stock_dataframe():
     connection.close()
 
 
-    df
+
 
     def create_df(row):
         if row["Total Stock"] > (row["Normal stock"] + row["Safety stock"]+row["Low stock"]):
