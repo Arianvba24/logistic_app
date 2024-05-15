@@ -4,7 +4,7 @@ import numpy as np
 import plotly.graph_objects as go
 
 def create_stock_dataframe():
-    connection = sqlite3.connect(r"C:\Users\Cash\streamlit_apps\testing2004\logistic_app\products.db")
+    connection = sqlite3.connect(r"products.db")
 
     query = r"""
     SELECT stock.Product,stock.Brand,stock.Provider,sum(stock."Quantity") as "Total Stock",min_stock."Optimus stock",min_stock."Normal stock",min_stock."Safety stock",min_stock."Low stock"
