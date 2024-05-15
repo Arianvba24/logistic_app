@@ -23,7 +23,7 @@ def create_stock_dataframe():
 
     connection.close()
 
-
+    return df
 
 
     def create_df(row):
