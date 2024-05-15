@@ -344,7 +344,7 @@ def main():
         col1,col2,col3 = st.columns([4,1,4])
         df = create_stock_dataframe()
         
-        df_chart = create_chart(df)
+        df_chart = create_chart(df.sort_values(by="Total Stock"))
         with col1:
 
             st.plotly_chart(df_chart)
