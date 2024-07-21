@@ -4,3 +4,9 @@ We can also insert data, register new products and analyse the stock that we cur
 
 Feel free to check the app by yourself in the following link:
 https://logisticapp-85ps6e74ana8uzybw64hab.streamlit.app/
+
+
+https://github.com/user-attachments/assets/e6d4ae44-430b-4a51-b3f6-91fb71599bac
+
+https://github.com/user-attachments/assets/459caa11-7751-414a-ac59-3884f4d0653d
+
