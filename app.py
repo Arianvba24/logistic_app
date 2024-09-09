@@ -349,12 +349,12 @@ def main():
 
             st.plotly_chart(df_chart)
 
-        with col3:
+        # with col3:
             
 
-            st.title(" ")
-            st.markdown("Table with products")
-            st.dataframe(df.sort_values(by="Total Stock",ascending=False))
+        st.title(" ")
+        st.markdown("Table with products")
+        st.dataframe(df.sort_values(by="Total Stock",ascending=False))
 
 
     
